@@ -6,7 +6,7 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 
-const app = express();
+const app = express(); 
  
 // Middleware
 app.use(express.json());
